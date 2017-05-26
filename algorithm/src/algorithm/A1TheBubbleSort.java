@@ -40,24 +40,18 @@ public class A1TheBubbleSort {
 	public static void main(String[] arg) {
 		
 		
-		/*
-		 * 创建一个随机数 数组 容量为10
-		 */
+		
+		//S1: 创建一个随机数 数组 容量为10
 		int[] numbers = new int[SIZE];
-		
 		int i;
-		
 		for(i=0; i<SIZE; i++) {
 			
 			numbers[i] = (int) (100 + Math.random()*(100+1));
 		}
 		
-		//输出排序前的数组
+		
+		//S2: 输出排序前的数组
 		System.out.print("排序前的数组为: \n");
-		
-		
-		
-		
 		for(i=0; i<SIZE; i++) {
 			
 			System.out.print(numbers[i] + " ");
@@ -65,9 +59,14 @@ public class A1TheBubbleSort {
 		System.out.print("\n");
 		
 		
-		bubbleSort(numbers);
-		System.out.print("排序后的数组为: \n");
 		
+		//S3: 冒泡排序
+		bubbleSort(numbers);
+		
+		
+		
+		//S4: 输出排序后的数组
+		System.out.print("排序后的数组为: \n");
 		for(i=0; i<SIZE; i++) {
 			System.out.print(numbers[i] + " ");
 		}
