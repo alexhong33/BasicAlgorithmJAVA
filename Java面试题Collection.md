@@ -7,8 +7,9 @@
 [40个Java集合面试问题和答案](http://www.importnew.com/15980.html)
 
 [100+经典Java面试题及答案解析](http://www.cnblogs.com/pureEve/p/6546280.html)
+<<<<<<< HEAD
 
 
 # 线程
 
-[Java线程面试题](http://www.imp   ortnew.com/12773.html)
+[Java线程面试题](http://www.importnew.com/12773.html)
