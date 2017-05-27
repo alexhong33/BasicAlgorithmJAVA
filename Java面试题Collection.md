@@ -7,7 +7,7 @@
 [40个Java集合面试问题和答案](http://www.importnew.com/15980.html)
 
 [100+经典Java面试题及答案解析](http://www.cnblogs.com/pureEve/p/6546280.html)
-<<<<<<< HEAD
+
 
 
 # 线程
