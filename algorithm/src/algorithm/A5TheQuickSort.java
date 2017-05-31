@@ -20,17 +20,21 @@ public class A5TheQuickSort {
 	}
 	
 	public static int partition(int[] array, int left, int right, int pivot) {
-		
+		//当尾端位置 大于 首端位置
 		while (left <= right) {
+			//当首端的数 小于 pivot 则left++移动到下一个数
 			while (array[left] < pivot) {
 				left++;
 			}
 			
+			//当尾端的数 大于pivot 则right--移动到下一个数
 			while (array[right] > pivot) {
 				right--;
 			}
 			
+			//如果首端位置 小于等于 尾端位置
 			if (left <= right) {
+				//交换首位数
 				swap(array, left, right);
 				left++;
 				right--;
